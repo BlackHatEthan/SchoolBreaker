@@ -1,0 +1,30 @@
+# Ignore Python bytecode files
+__pycache__/
+*.py[cod]
+
+# Ignore system files that are specific to the local environment
+.DS_Store
+Thumbs.db
+
+# Ignore the temporary and log files
+*.log
+*.bak
+*.swp
+*.swo
+
+# Ignore virtual environment directory (if using one)
+venv/
+env/
+
+# Ignore compiled Python files
+*.pyc
+*.pyo
+
+# Ignore any personal configuration files
+.idea/
+.vscode/
+
+# Ignore sensitive files (keys, passwords, etc.)
+*.key
+*.pem
+
